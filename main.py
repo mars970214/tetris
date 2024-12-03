@@ -257,6 +257,7 @@ for i in range(4):
     bottom_blocks.add(Bb)
 
 next_block = game["block_name"].split(" ")
+random.shuffle(next_block)
 def summon_block(c=0):
     global all_block
     global all_blocks
